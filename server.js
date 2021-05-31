@@ -46,7 +46,6 @@ function bookCollectionSeed() {
         image_url: 'https://i.guim.co.uk/img/media/aa7c2ad78f185e2d373c352aaa530eec712c807a/0_0_326_499/master/326.jpg?width=120&quality=45&auto=format&fit=max&dpr=2&s=d512e953d5a554d6f17661be24012c49'
     })
 
-    console.log(funHome);
     outLine.save();
     funHome.save();
     siege.save();
@@ -60,7 +59,7 @@ function userCollectionSeed() {
         books: [
             {
                 name: 'Underland',
-                description: 'A beautifully written and profound book, which takes the form of a series of',
+                description: 'A beautifully written and profound book, which takes the form of a series of'   ,
                 image_url: 'https://i.guim.co.uk/img/media/fbc5236944ba71d93f7d0535d3e28e5eb5404e7d/0_0_3250_5000/master/3250.jpg?width=120&quality=45&auto=format&fit=max&dpr=2&s=187d9b1d691e472f28a31ffa235b938a'
             }
             ,
@@ -71,7 +70,7 @@ function userCollectionSeed() {
             }
         ]
     })
-    console.log(mohammed);
+    console.log(mohammed.books[0]);
     const fatima = new userModel({
         email: 'falhmood66@gmail.com',
         books: [
